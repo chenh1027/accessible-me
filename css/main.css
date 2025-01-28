@@ -1,6 +1,6 @@
 body {
-  font-family: 'Roboto', Helvetica, sans-serif;
-  background-color: grey;
+  font-family: "Roboto", Helvetica, sans-serif;
+  background-color: rgb(255, 253, 235);
   margin: 0;
   padding: 0;
 }
@@ -11,13 +11,32 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Stick No Bills', 'Roboto', Helvetica, sans-serif;
+  font-family: "Stick No Bills", "Roboto", Helvetica, sans-serif;
 }
 
 .container {
   max-width: 1080px;
   margin: 0 auto;
   padding: 0 1rem;
+}
+
+.skip-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.skip-links a {
+  position: absolute;
+  top: -3em;
+  background-color: rgb(30, 30, 30);
+  color: white;
+  padding: 0.5em 1em;
+  font-weight: bold;
+}
+
+a:focus {
+  outline: 6px solid black;
+  top: 0;
 }
 
 img {
@@ -49,7 +68,7 @@ form textarea {
   display: block;
   width: 100%;
   margin-bottom: 1rem;
-  padding: .5rem 1rem;
+  padding: 0.5rem 1rem;
 }
 
 form textarea {
